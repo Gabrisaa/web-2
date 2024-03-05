@@ -1,8 +1,11 @@
 /* Move o conteúdo 3.5rem para baixo, porque usamos uma navbar fixa que tem altura de 3.5rem */
 body {
-    padding-top: 3.5rem;
-  }
+  padding-top: 3.5rem;
+}
 
-.container{
+.container {
   background-color: rgb(255, 255, 255);
+  text-align: center;
+  border: 30px solid transparent;
+  border-image: url("./assets/rodapecarol.png") 150 round;
 }
