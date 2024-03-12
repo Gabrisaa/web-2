@@ -1,5 +1,5 @@
 <?php
-require_once 'init.php';
+require_once '../init.php';
 // pega os dados do formuário
 $Nome = isset($_POST['Nome']) ? $_POST['Nome'] : null;
 $idade = isset($_POST['selectidade']) ? $_POST['selectidade'] : null;
